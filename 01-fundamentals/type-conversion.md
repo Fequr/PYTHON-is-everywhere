@@ -1,8 +1,8 @@
-Type Conversion in Python
+# Type Conversion in Python
 
 Type conversion changes a value from one data type to another.
 
-Explicit Conversion
+# Explicit Conversion
 
 Explicit conversion is performed by the programmer using built-in functions.
 
@@ -22,14 +22,14 @@ result = 5 + 2.0
 print(result)       # 7.0
 print(type(result)) # <class 'float'>
 
-Converting User Input
+# Converting User Input
 
 The input() function always returns a string.
 
 age = int(input("Enter your age: "))
 price = float(input("Enter a price: "))
 
-Common Errors
+# Common Errors
 
 Invalid conversions can raise ValueError.
 
@@ -40,7 +40,7 @@ Converting a floating-point number to an integer removes the fractional part. It
 int(3.9)   # 3
 int(-3.9)  # -3
 
-Truth Value Conversion
+# Truth Value Conversion
 
 The bool() function converts a value to True or False.
 

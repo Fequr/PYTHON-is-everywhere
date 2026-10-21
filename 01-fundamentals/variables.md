@@ -1,10 +1,10 @@
-Variables in Python
+# Variables in Python
 
 What Are Variables?
 
 Variables are names that refer to objects in memory. They allow us to store and reuse data.
 
-Creating Variables
+# Creating Variables
 
 name = "Alex" 
 age = 18
@@ -18,7 +18,7 @@ Multiple Assignment
 x, y = 10, 20
 a = b = 0
 
-Naming Rules
+# Naming Rules
 
 * Names can contain letters, numbers, and underscores.
 * Names cannot start with a number.
@@ -26,14 +26,14 @@ Naming Rules
 * Use snake_case for variable names.
 * Avoid Python keywords such as class, if, and for.
 
-Constants
+# Constants
 
 Python does not have strict constants. By convention, uppercase names represent values that should not change.
 
 MAX_RETRIES = 3
 PI = 3.14159
 
-Important
+# Important
 
 * = assigns a value.
 * == compares two values.
